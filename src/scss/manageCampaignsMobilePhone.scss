@@ -1,0 +1,35 @@
+@media screen and (max-width: 729px) {
+    .App {
+        div {
+            .manage-campaigns-wrapper {
+                display: block;
+                margin-bottom: 15px;
+                .manage-campaigns-heading {
+                    display: block;
+                    width: 100%;
+                    margin-bottom: 15px;
+                }
+                .change-language-container {
+                    display: block;
+                    width: 100%;
+                    text-align: left;
+                }
+            }
+
+            .manage-campaigns-data {
+                .campaign-row {
+                    .campaign-actions {
+                        .report {
+                            margin-top: 5px;
+                        }
+                    }
+                }
+            }
+
+            .view-pricing-modal {
+                top: 35%;
+                left: 10%;
+            }
+        }
+    }
+}
